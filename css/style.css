@@ -321,6 +321,7 @@ input[type="search"] {
         color: white;
     }
     .btn-contain {
+        
         margin-top: 20px;
         display: flex;
         width: 20em;
@@ -561,10 +562,13 @@ input[type="search"] {
         color: white;
     }
     .btn-contain {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    	grid-gap: 100px;
         margin-top: 20px;
-        display: flex;
+       /* display: flex;*/
         width: 20em;
-        justify-content: space-between;
+        /*justify-content: space-between;*/
     }
     .btn-all {
         width: 8em;
