@@ -165,7 +165,7 @@ input[type="search"] {
     display: grid;
     width: 20em;
     grid-template-columns: 1fr 1fr;
-    			grid-gap: 100px;
+    			grid-gap: 20px;
     /*justify-content: space-between;*/
 }
 
