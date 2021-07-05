@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <div class="logo-left"><img src="images/logo.png"></div>
+            <div class="menu-middle">
+                <ul class="navlist">
+                    <li><a href="http://">Home</a></li>
+                    <li><a href="http://">About</a></li>
+                    <li><a href="http://">Service</a></li>
+                    <li><a href="http://">Contact</a></li>
+
+                </ul>
+            </div>
+            <div class="searchbox-right">
+                <div class="container" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <div class="searchbar">
+                    <input type="search" placeholder="  Search..."><button><img src="images/se1.png"></button>
+                </div>
+
+            </div>
+        </nav>
+        <div class="slider" id="slider1">
+            <div class="navcontain">
+                <ul class="navlist1">
+                    <li><img src="images/logo.png"></li>
+                    <li><a href="http://">Home</a></li>
+                    <li><a href="http://">About</a></li>
+                    <li><a href="http://">Service</a></li>
+                    <li><a href="http://">Contact</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="main-section">
+            <div class="headersec">
+                <div class="textsection">
+                    <h1>First I Wanted to be a veterinarian</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quo adipisci, omnis labore commodi eligendi? Culpa, incidunt!</p>
+                    <div class="btn-contain">
+                        <button class="btn-all btnblue">Contact us</button>
+                        <button class="btn-all">Our Services</button>
+                    </div>
+                </div>
+            </div>
+            <div class="imagesec">
+
+                <video autoplay loop muted playsinline>
+    <source src="https://doggo.s3.amazonaws.com/output.mov" type='video/mp4'; codecs="hvc1">
+    <source src="https://doggo.s3.amazonaws.com/output.webm" type="video/webm">
+    </video>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function myFunction(x) {
+        x.classList.toggle("change");
+        let slide = document.getElementById("slider1");
+        slide.classList.toggle("changeslider");
+
+    }
+</script>
+
+
+
+
+</html>
