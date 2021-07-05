@@ -162,9 +162,11 @@ input[type="search"] {
 
 .btn-contain {
     margin-top: 20px;
-    display: flex;
+    display: grid;
     width: 20em;
-    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    			grid-gap: 100px;
+    /*justify-content: space-between;*/
 }
 
 .btn-all {
@@ -322,9 +324,11 @@ input[type="search"] {
     }
     .btn-contain {
         margin-top: 20px;
-        display: flex;
+        display: grid;
         width: 20em;
-        justify-content: space-between;
+        grid-template-columns: 1fr 1fr;
+    	grid-gap: 20px;
+        /*justify-content: space-between;*/
     }
     .btn-all {
         width: 8em;
@@ -562,9 +566,11 @@ input[type="search"] {
     }
     .btn-contain {
         margin-top: 20px;
-        display: flex;
+        display: grid;
         width: 20em;
-        justify-content: space-between;
+        /*justify-content: space-between;*/
+        grid-template-columns: 1fr 1fr;
+    	grid-gap: 20px;
     }
     .btn-all {
         width: 8em;
